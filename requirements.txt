@@ -1,0 +1,8 @@
+pandas
+matplotlib
+numpy
+tensorflow==2.15.*
+tensorflow-hub
+scikit-learn
+python-dotenv
+transformers>=4.40.0
