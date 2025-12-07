@@ -5,4 +5,5 @@ tensorflow==2.15.*
 tensorflow-hub
 scikit-learn
 python-dotenv
-transformers>=4.40.0
+datasets
+transformers<=4.54.1

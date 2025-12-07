@@ -1,7 +1,0 @@
-split_year;end_year;window_years;is_benchmark;training_time;epochs;val_accuracy
-2005;2024;1;1;TODO;TODO;TODO
-2005;2024;1;0;TODO;TODO;TODO
-2005;2024;0;1;TODO;TODO;TODO
-2005;2024;0;0;TODO;TODO;TODO
-2005;2024;-1;1;TODO;TODO;TODO
-2005;2024;-1;0;TODO;TODO;TODO
