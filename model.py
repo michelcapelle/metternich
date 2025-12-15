@@ -57,7 +57,7 @@ class BertBinaryClassifier():
             max_length=self.settings.max_len,
             padding="max_length",
             truncation=True,
-            return_tensors="tf"
+            return_tensors="tf",
         )
         return {
             "input_ids": enc["input_ids"],
