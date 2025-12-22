@@ -57,7 +57,7 @@ class KlemensHelper:
         return conflicts
     
     # Top 25 ~ 71.6% of world population
-    # https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population
+    # https://www.unfpa.org/data/world-population-dashboard
     def filter_countries(self, data):
         top25 = ['IND', 'CHN', 'USA', 'IDN', 'PAK', 'NGA', 'BRA', 'BGD', 'RUS', 'MEX', 'JPN', 'PHL', 'COD', 'ETH', 'EGY', 'VNM', 'IRN', 'TUR', 'DEU', 'GBR', 'FRA', 'TZA', 'THA', 'ZAF', 'ITA']
         return data[data['country'].isin(top25)].copy()
